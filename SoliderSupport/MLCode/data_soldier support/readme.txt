@@ -1,0 +1,1 @@
+If you're wondering why angles are greater than 340 and the general trend is arond 5-10 degrees...... negative error is also possible so i left it untouched.
