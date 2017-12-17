@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -e "Script Started!\n"
+
+netcat -l -p 5000 | gpg --decrypt |mplayer -fps 60 -cache 1024 -

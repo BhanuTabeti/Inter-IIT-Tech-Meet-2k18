@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -e "Script Started!\n"
+echo "Enter IP of Receiver: "
+read ipname
+raspivid -o video -t 0 -w 480 -h 360 & cat video | gpg --encrypt -r "IIT Hyderabad" | nc.traditional $ipname 5000
