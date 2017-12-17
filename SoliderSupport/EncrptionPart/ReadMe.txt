@@ -11,5 +11,5 @@ To Generate Key
 
 # gpg --allow-secret-key-import --import private.key
 
-UserName : IIT Hyderaba
-Password : elektronica
+UserName : IIT Hyderabad
+Password : e****a
