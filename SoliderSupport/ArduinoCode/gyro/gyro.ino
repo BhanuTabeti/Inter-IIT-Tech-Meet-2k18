@@ -34,11 +34,13 @@ void loop(){
   AcX=Wire.read()<<8|Wire.read();
   AcY=Wire.read()<<8|Wire.read();
   AcZ=Wire.read()<<8|Wire.read();
+  int Temp  = Wire.read()<<8|Wire.read();
+  Temp = Temp/340.00 + 36.53;
 
   Serial.println(AcX);
   Serial.println(AcY);
   Serial.println(AcZ);
-
+  Serial.println(Temp);
 
     int xAng = map(AcX,minVal,maxVal,-90,90);
     int yAng = map(AcY,minVal,maxVal,-90,90);
