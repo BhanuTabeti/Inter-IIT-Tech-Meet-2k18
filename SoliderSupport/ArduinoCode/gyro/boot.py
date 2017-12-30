@@ -22,12 +22,12 @@ def setVal(x,val,thr):
 		pass
 	pass
 while True:
-	setVal(0, Thumb.read() , 1400)
+	setVal(0, Thumb.read() , 1500)
 	setVal(1, Index.read() , 2500)
 	setVal(2, Middle.read(), 2750)
 	setVal(3, Ring.read()  , 2500)
 	setVal(4, Little.read(), 2500)
 	print(Fingers + wrist.data() + shoulder.data(), end = '')
 	print(",")
-	sleep(.5)
+	sleep(.25)
 	pass
