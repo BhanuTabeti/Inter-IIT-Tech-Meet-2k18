@@ -13,20 +13,14 @@ Little	= ADC(Pin(33))
 
 Fingers = [0,0,0,0,0]
 
-def setVal(x,val,thr):
-	if val < thr:
-		Fingers[x] = 1
-		pass
-	else:
-		Fingers[x] = 0
-		pass
-	pass
+def setVal(x,val):
+	Fingers[x] = val
 while True:
-	setVal(0, Thumb.read() , 1500)
-	setVal(1, Index.read() , 2500)
-	setVal(2, Middle.read(), 2750)
-	setVal(3, Ring.read()  , 2500)
-	setVal(4, Little.read(), 2500)
+	setVal(0, Thumb.read() )
+	setVal(1, Index.read() )
+	setVal(2, Middle.read())
+	setVal(3, Ring.read()  )
+	setVal(4, Little.read())
 	print(Fingers + wrist.data() + shoulder.data(), end = '')
 	print(",")
 	sleep(.25)
