@@ -25,7 +25,7 @@ int main()
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("'Crouch,");
+		printf("'Crouch',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
@@ -83,17 +83,21 @@ int main()
 	{
 		printf("'Me',");
 	}
-	for (int i = 0; i < 287; ++i)
+	for (int i = 0; i < 288; ++i)
 	{
-		printf("'Move Up'',");
+		printf("'Move Up',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
 		printf("'Pistol',");
 	}
-	for (int i = 0; i < 288; ++i)
+	for (int i = 0; i < 287; ++i)
 	{
 		printf("'Point Of Entry',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Rally Point',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
@@ -103,7 +107,7 @@ int main()
 	{
 		printf("'See',");
 	}	
-	for (int i = 0; i < 286; ++i)
+	for (int i = 0; i < 264; ++i)
 	{
 		printf("'Shotgun',");
 	}	
@@ -127,7 +131,7 @@ int main()
 	{
 		printf("'Window',");
 	}
-	for (int i = 0; i < 287; ++i)
+	for (int i = 0; i < 288; ++i)
 	{
 		printf("'You',");
 	}

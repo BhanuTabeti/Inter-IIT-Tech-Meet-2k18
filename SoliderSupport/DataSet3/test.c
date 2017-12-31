@@ -12,10 +12,10 @@ int main(int argc, char const *argv[])
 	while(!feof(f)){
 		fscanf(f,"%s",test);
 		temp++;
-		if (test[strlen(test) - 2] == ']')
+		if (test[strlen(test) - 2] == ']' )
 		{
 			lineno++;
-			if (temp < 17)
+			if (temp < 17 || test[strlen(test) -1] != ',' )
 			{
 				printf("Line Number : %d\n",lineno );
 			}
