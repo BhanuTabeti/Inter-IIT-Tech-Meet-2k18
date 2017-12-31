@@ -2,139 +2,135 @@
 
 int main()
 {
-	// printf("[");
+	printf("[");
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("You\n");
+		printf("'Ammunition',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Me\n");
+		printf("'Breacher',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Come\n");
+		printf("'Column Formation',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Listen\n");
+		printf("'Come',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Pistol\n");
+		printf("'Cover This Area',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Hurry Up\n");
+		printf("'Crouch,");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Stop\n");
+		printf("'Dog',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Door',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Enemy',");
 	}
 	for (int i = 0; i < 576; ++i)
 	{
-		printf("Freeze\n");
+		printf("'File Formation',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("See\n");
+		printf("'Freeze',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Dog\n");
+		printf("'Gas',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Cover This Area\n");
+		printf("'Hostage',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Enemy\n");
+		printf("'Hurry Up',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Hostage\n");
+		printf("'I Dont Understand',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Sniper\n");
+		printf("'I Understand',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Leader\n");
+		printf("'Leader',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Column Formation\n");
+		printf("'Line Formation',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("File Formation\n");
+		printf("'Listen',");
 	}
 	for (int i = 0; i < 288; ++i)
 	{
-		printf("Line Abreast Formation\n");
-	}
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("Wedge Formation\n");
-	}
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("Rally Point\n");
-	}	
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("Rifle\n");
-	}	
-	for (int i = 0; i < 266; ++i)
-	{
-		printf("ShotGun\n");
-	}	
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("Ammunition\n");
-	}
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("Vehicle\n");
-	}
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("I Understand\n");
-	}
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("I Dont Understand\n");
-	}
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("Crouch\n");
-	}
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("Breacher\n");
-	}
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("Gas\n");
-	}
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("Door\n");
-	}
-	for (int i = 0; i < 288; ++i)
-	{
-		printf("Window\n");
+		printf("'Me',");
 	}
 	for (int i = 0; i < 287; ++i)
 	{
-		printf("Point of Entry\n");
+		printf("'Move Up'',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Pistol',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Point Of Entry',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Rifle',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'See',");
+	}	
+	for (int i = 0; i < 286; ++i)
+	{
+		printf("'Shotgun',");
+	}	
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Sniper',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Stop',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Vehicle',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Wedge Formation',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Window',");
 	}
 	for (int i = 0; i < 287; ++i)
 	{
-		printf("Move Up\n");
+		printf("'You',");
 	}
-	// printf("]\n");
+	printf("]\n");
 	return 0;
 }
