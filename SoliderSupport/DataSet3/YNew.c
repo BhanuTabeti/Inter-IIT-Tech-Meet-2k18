@@ -11,26 +11,26 @@ int main()
 	{
 		printf("'Breacher',");
 	}
-	// for (int i = 0; i < 288; ++i)
-	// {
-	// 	printf("'Column Formation',");
-	// }
-	// for (int i = 0; i < 288; ++i)
-	// {
-	// 	printf("'Come',");
-	// }
-	// for (int i = 0; i < 288; ++i)
-	// {
-	// 	printf("'Cover This Area',");
-	// }
-	// for (int i = 0; i < 288; ++i)
-	// {
-	// 	printf("'Crouch,");
-	// }
-	// for (int i = 0; i < 288; ++i)
-	// {
-	// 	printf("'Dog',");
-	// }
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Column Formation',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Come',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Cover This Area',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Crouch',");
+	}
+	for (int i = 0; i < 288; ++i)
+	{
+		printf("'Dog',");
+	}
 	// for (int i = 0; i < 288; ++i)
 	// {
 	// 	printf("'Door',");
@@ -127,7 +127,7 @@ int main()
 	// {
 	// 	printf("'Window',");
 	// }
-	// for (int i = 0; i < 287; ++i)
+	// for (int i = 0; i < 288; ++i)
 	// {
 	// 	printf("'You',");
 	// }
