@@ -39,11 +39,11 @@ int main()
 	{
 		printf("'Enemy',");
 	}
-	for (int i = 0; i < 576; ++i)
+	for (int i = 0; i < 288; ++i)
 	{
 		printf("'File Formation',");
 	}
-	for (int i = 0; i < 288; ++i)
+	for (int i = 0; i < 576; ++i)
 	{
 		printf("'Freeze',");
 	}
