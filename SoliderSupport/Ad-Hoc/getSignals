@@ -1,0 +1,9 @@
+#!/bin/bash
+
+touch Server/index.html
+rm Server/index.html
+cat nodes_in_network | while read LINE
+do
+iw dev wlan0 station get $LINE | egrep 'signal|Station' | sed 's/^.*signal:\(.*\) dBm.*$/\1/' | sed 's/^.*Station \(.*\)(.*$/\1/' | tr -d '\n\t' >> Server/index.html
+echo ""  >> Server/index.html
+done

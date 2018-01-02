@@ -1,0 +1,3 @@
+#!/bin/bash
+
+arp -n | grep C | grep wlan0 | sed 's/ .*//' > ips_in_network
