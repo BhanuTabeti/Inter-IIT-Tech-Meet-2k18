@@ -9773,11 +9773,11 @@ y = ['Ammunition','Ammunition','Ammunition','Ammunition','Ammunition','Ammunitio
 
 from sklearn.neighbors import KNeighborsClassifier
 # Making Object
-neigh = KNeighborsClassifier(n_neighbors=3)
+neigh = KNeighborsClassifier(n_neighbors=2)
 # Traning Data
 neigh.fit(X, y)
 # Testing 
-filename = '33_model.sav'
+filename = '33_model_2.sav'
 pickle.dump(neigh, open(filename, 'wb'))
 # Printing
 print('Saved to finalized_model.sav')
