@@ -1,0 +1,10 @@
+#!/bin/bash
+
+./getMacs
+./getIps
+
+while true ;
+do
+./getSignals
+sleep 1
+done

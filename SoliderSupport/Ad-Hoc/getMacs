@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for i in {1..25} ;do (ping 10.0.0.$i -c 1 -w 5 >/dev/null &) ;done
+arp -n | grep C | grep wlan0 |sed 's/^.*ether   \(.*\) C.*$/\1/' > nodes_in_network
+
